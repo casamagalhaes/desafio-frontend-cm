@@ -1,0 +1,26 @@
+{
+  "name": "varejim-produto-service",
+  "version": "1.0.0",
+  "description": "endpoint rest disponibilizado para dar suporte ao desenvolvimento do frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm -r dotenv-flow/config app/main.js",
+    "dev": "nodemon -r esm -r dotenv-flow/config app/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv-flow": "^3.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "knex": "^0.21.16",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
