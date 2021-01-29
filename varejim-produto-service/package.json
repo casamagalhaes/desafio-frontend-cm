@@ -4,8 +4,9 @@
   "description": "endpoint rest disponibilizado para dar suporte ao desenvolvimento do frontend",
   "main": "index.js",
   "scripts": {
-    "start": "node -r esm -r dotenv-flow/config app/main.js",
-    "dev": "nodemon -r esm -r dotenv-flow/config app/main.js"
+    "start": "NODE_ENV=production node -r esm -r dotenv-flow/config app/main.js",
+    "dev": "NODE_ENV=development nodemon -r esm -r dotenv-flow/config app/main.js",
+    "test": "NODE_ENV=test mocha -r esm"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,9 @@
     "sqlite3": "^5.0.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1",
     "nodemon": "^2.0.7"
   }
 }
