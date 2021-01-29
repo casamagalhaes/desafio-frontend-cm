@@ -9,7 +9,7 @@ consumidos pro interfaces web modernas.
 Implemente uma pequena SPA (Single Page Application) contendo a tela de listagem
 e a tela de cadastro/edição de produtos.
 
-AS telas deverão consumir os endpoints REST oferecidos pelo projeto backend node
+As telas deverão consumir os endpoints REST oferecidos pelo projeto backend node
 presente neste repositório.
 
 Um _README.md_ deve ser adicionado explicando os passos necessários para
@@ -29,13 +29,41 @@ construir e rodar o projeto frontend.
 - este repositório é um _monorepo/multiproject_. o serviço a ser consumido
   encontra-se em _varejim-produto-service_. a implementação da solução frontend
   deve ser feita em _varejim-produto-web_.
-
+- o _README.md_ do projeto frontend deve detalhar todos os passos e requisitos
+  para executar o frontend e consumir o backend.
+- é muito importante que o projeto possa ser executado em ambiente linux, macos
+  ou windows. ao menos uma plataforma deve ser contemplada. indicar claramente
+  onde os testes e desenvolvimento ocorreram no _README.md_
+- usar **vue-router** para implementar a SPA
+  
 ## Pontuação bônus
+
+- demonstrar conhecimento de ES6
+- usar [vue test utils](https://vue-test-utils.vuejs.org/installation/#semantic-versioning)
+- usar alguma ferramenta capaz de gerar relatório de cobertura de testes
+- usar algum toolkit de componentes, integrado ou não ao vue
+- rodar em mais de uma plataforma (linux, macos, windows ou outro, x86 ou arm)
+- boas práticas de estilo e codificação
+- eslint
+- babel
+- dot env flow para variáveis de ambiente para a construção do projeto. como
+  sugestão recuperar a url do endpoint do serviço a partir de variáveis de
+  ambiente para construir o projeto
+- usar **vuex** pra preservar o estado dos filtros da tela de listagem
 
 ## O que será julgado
 
 - a justa e correta realização dos requisitos obrigatórios
-- a 
+- a forma que as pontuações bônus foram implementadas, se fazem sentido pelo
+  menos enquanto exemplo de uso correto da tecnologia
+- a qualidade do código
+- a interpretação feita dos requisitos e dos bônus. Mesmo objetivos, são
+  passíveis de interpretação e, caso pareça necessário, detalhar no README.md as
+  motivações por trás da implementação feita
+- a simplicidade da solução
+- a forma que as pontuações bônus foram realizadas, se alguma for feita
+- a qualidade do _README.md_ enquanto informativo de construção e execução do
+  projeto
 
 ## Prazo
 
