@@ -2,16 +2,9 @@ import { Router } from "express";
 
 import * as service from "../service/produtoService";
 
-export const router = new Router();
+import { trata } from "./util";
 
-const trata = async (req, res, fn, ...param) => {
-  try {
-    res.send(await fn(...param));
-  } catch (err) {
-    res.status(500).send(err);
-    console.log(err);
-  }
-};
+export const router = new Router();
 
 router.get("/produtos", (req, res) => trata(req, res, service.list, req.query));
 router.get("/produtos/:id", (req, res) =>
