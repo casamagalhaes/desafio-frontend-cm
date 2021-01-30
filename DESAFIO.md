@@ -35,7 +35,7 @@ construir e rodar o projeto frontend.
   ou windows. ao menos uma plataforma deve ser contemplada. indicar claramente
   onde os testes e desenvolvimento ocorreram no _README.md_
 - usar **vue-router** para implementar a SPA
-  
+
 ## Pontuação bônus
 
 - demonstrar conhecimento de ES6
@@ -50,6 +50,8 @@ construir e rodar o projeto frontend.
   sugestão recuperar a url do endpoint do serviço a partir de variáveis de
   ambiente para construir o projeto
 - usar **vuex** pra preservar o estado dos filtros da tela de listagem
+- _criar e documentar_ alguma implementação extra não solicitada aqui mas que
+  contribua de alguma forma para a solução.
 
 ## O que será julgado
 
@@ -64,6 +66,9 @@ construir e rodar o projeto frontend.
 - a forma que as pontuações bônus foram realizadas, se alguma for feita
 - a qualidade do _README.md_ enquanto informativo de construção e execução do
   projeto
+- caso executada a última pontuação bônus, até que ponto a tecnologia aplicada é
+  de fato interessante benéfica e quão boa é a apresentação e defesa técnica da
+  mesma no _README.md_ do projeto web.
 
 ## Prazo
 
@@ -84,3 +89,8 @@ janela de tempo.
 
 uma vez implementada, indicar o link do repositório para o avaliador apontado
 pela Casa Magalhães e aguardar feedback.
+
+## Dúvidas
+
+a qualquer momento entre em contato com o avaliador técnico indicado pela CM pra
+sanar dúvidas. Comunicação é essencial.

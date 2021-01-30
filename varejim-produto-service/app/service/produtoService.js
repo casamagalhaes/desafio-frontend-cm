@@ -1,7 +1,7 @@
 import { knex } from "../config/db";
 
 export const list = async (query) => {
-  const { start = 0, limit = 10, descricao, ...q } = query;
+  const { start = 0, limit = 10, descricao = '', ...q } = query;
   const items = await knex("produto")
     .where("descricao", "like", `%${descricao}%`)
     .andWhere(q)
