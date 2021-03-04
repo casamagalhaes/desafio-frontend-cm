@@ -1,3 +1,3 @@
 # varejim-produto-web
 
-implemente sua solução aqui neste projeto
+Implemente sua solução aqui e atualize este README.
