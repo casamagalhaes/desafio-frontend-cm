@@ -1,17 +1,17 @@
 # desafio-frontend-cm
 
-repositório com o desafio fontend casa magalhães
+Repositório com o desafio frontend da Casa Magalhães.
 
-## instruções
+## Instruções
 
-o repositório deve ser _forkado_ e a implementação adicionada.
+O repositório deve ser **_forkado_** e a implementação adicionada.
 
-não é preciso abrir pull request, basta apresentar o repositório contendo a
+Não é preciso abrir pull request, basta apresentar o repositório contendo a
 implementação da solução.
 
-uma vez implementada, indicar o link do repositório para o avaliador apontado
+Uma vez implementada, indicar o link do repositório para o avaliador apontado
 pela Casa Magalhães e aguardar feedback.
 
-leia atentamente a versão mais atual do [DESAFIO](./DESAFIO.md).
+Leia atentamente a versão mais atual do [DESAFIO](./DESAFIO.md).
 
-não implemente versões antigas do desafio.
+Não implemente versões antigas do desafio.
