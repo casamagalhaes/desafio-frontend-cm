@@ -17,56 +17,56 @@ construir e rodar o projeto frontend.
 
 ## Requisitos obrigatórios
 
-- a tela de listagem é a tela inicial
-- deve ter uma tela de listagem com pelo menos uma tabela e um campo de filtro
-- a tela de listagem deve oferecer paginação
-- a busca deve ser intuitiva e buscar por código quando o usuário fornecer
+- A tela de listagem é a tela inicial
+- Deve ter uma tela de listagem com pelo menos uma tabela e um campo de filtro
+- A tela de listagem deve oferecer paginação
+- A busca deve ser intuitiva e buscar por código quando o usuário fornecer
   números e por descrição se houver texto
-- ao selecionar uma linha da tabela, deve navegar para a tela de cadastro/edição
-- a opção 'excluir' deve ser oferecida tanto na tela de edição quanto na tela de
+- Ao selecionar uma linha da tabela, deve navegar para a tela de cadastro/edição
+- A opção 'excluir' deve ser oferecida tanto na tela de edição quanto na tela de
   listagem
-- na tela de cadastro/edição, campos obrigatórios devem ser validados
-- este repositório é um _monorepo/multiproject_. o serviço a ser consumido
+- Na tela de cadastro/edição, campos obrigatórios devem ser validados
+- Este repositório é um _monorepo/multiproject_. o serviço a ser consumido
   encontra-se em _varejim-produto-service_. a implementação da solução frontend
   deve ser feita em _varejim-produto-web_.
-- o _README.md_ do projeto frontend deve detalhar todos os passos e requisitos
+- O _README.md_ do projeto frontend deve detalhar todos os passos e requisitos
   para executar o frontend e consumir o backend.
-- é muito importante que o projeto possa ser executado em ambiente linux, macos
+- É muito importante que o projeto possa ser executado em ambiente linux, macos
   ou windows. ao menos uma plataforma deve ser contemplada. indicar claramente
   onde os testes e desenvolvimento ocorreram no _README.md_
-- usar **vue-router** para implementar a SPA
+- Usar **vue-router** para implementar a SPA
 
 ## Pontuação bônus
 
-- demonstrar conhecimento de ES6
-- usar [vue test utils](https://vue-test-utils.vuejs.org/installation/#semantic-versioning)
-- usar alguma ferramenta capaz de gerar relatório de cobertura de testes
-- usar algum toolkit de componentes, integrado ou não ao vue
-- rodar em mais de uma plataforma (linux, macos, windows ou outro, x86 ou arm)
-- boas práticas de estilo e codificação
-- eslint
-- babel
-- dot env flow para variáveis de ambiente para a construção do projeto. como
+- Demonstrar conhecimento de ES6
+- Usar [vue test utils](https://vue-test-utils.vuejs.org/installation/#semantic-versioning)
+- Usar alguma ferramenta capaz de gerar relatório de cobertura de testes
+- Usar algum toolkit de componentes, integrado ou não ao vue
+- Rodar em mais de uma plataforma (linux, macos, windows ou outro, x86 ou arm)
+- Boas práticas de estilo e codificação
+- Eslint
+- Babel
+- Dot env flow para variáveis de ambiente para a construção do projeto. como
   sugestão recuperar a url do endpoint do serviço a partir de variáveis de
   ambiente para construir o projeto
-- usar **vuex** pra preservar o estado dos filtros da tela de listagem
-- _criar e documentar_ alguma implementação extra não solicitada aqui mas que
+- Usar **vuex** pra preservar o estado dos filtros da tela de listagem
+- _Criar e documentar_ alguma implementação extra não solicitada aqui mas que
   contribua de alguma forma para a solução.
 
 ## O que será julgado
 
-- a justa e correta realização dos requisitos obrigatórios
-- a forma que as pontuações bônus foram implementadas, se fazem sentido pelo
+- A justa e correta realização dos requisitos obrigatórios
+- A forma que as pontuações bônus foram implementadas, se fazem sentido pelo
   menos enquanto exemplo de uso correto da tecnologia
-- a qualidade do código
-- a interpretação feita dos requisitos e dos bônus. Mesmo objetivos, são
+- A qualidade do código
+- A interpretação feita dos requisitos e dos bônus. Mesmo objetivos, são
   passíveis de interpretação e, caso pareça necessário, detalhar no README.md as
   motivações por trás da implementação feita
-- a simplicidade da solução
-- a forma que as pontuações bônus foram realizadas, se alguma for feita
-- a qualidade do _README.md_ enquanto informativo de construção e execução do
+- A simplicidade da solução
+- A forma que as pontuações bônus foram realizadas, se alguma for feita
+- A qualidade do _README.md_ enquanto informativo de construção e execução do
   projeto
-- caso executada a última pontuação bônus, até que ponto a tecnologia aplicada é
+- Caso executada a última pontuação bônus, até que ponto a tecnologia aplicada é
   de fato interessante benéfica e quão boa é a apresentação e defesa técnica da
   mesma no _README.md_ do projeto web.
 
@@ -87,10 +87,10 @@ janela de tempo.
 
 ## Forma de entrega
 
-uma vez implementada, indicar o link do repositório para o avaliador apontado
+Uma vez implementada, indicar o link do repositório para o avaliador apontado
 pela Casa Magalhães e aguardar feedback.
 
 ## Dúvidas
 
-a qualquer momento entre em contato com o avaliador técnico indicado pela CM pra
+A qualquer momento entre em contato com o avaliador técnico indicado pela CM pra
 sanar dúvidas. Comunicação é essencial.
