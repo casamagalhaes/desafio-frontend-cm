@@ -39,7 +39,7 @@ construir e rodar o projeto frontend.
 - Usar alguma ferramenta capaz de gerar relatório de cobertura de testes.
 - Rodar em mais de uma plataforma (Linux, MacOS, Windows ou outro, x86 ou arm).
 - Boas práticas de estilo e codificação.
-- ESLint.
+- ESLint/Prettier.
 - Babel.
 - Dot env flow para variáveis de ambiente para a construção do projeto, como sugestão: pode se usar para recuperar a url do endpoint do serviço.
 - Usar [**Vuex**](https://vuex.vuejs.org/) pra preservar o estado dos filtros da tela de listagem.
