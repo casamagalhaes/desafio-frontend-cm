@@ -1,54 +1,54 @@
 # varejim-produto-service
 
-endpoint rest disponibilizado para dar suporte ao desenvolvimento do frontend
+Endpoints REST disponibilizados para dar suporte ao desenvolvimento do frontend.
 
-## requisitos para rodar o service
+## Requisitos para rodar o service
 
-qualquer plataforma capaz de rodar o **node** a partir da **versão 12** deve
-funcionar
+Qualquer plataforma capaz de rodar o **Node** a partir da **versão 12** deve
+funcionar.
 
-## instalação e execução
+## Instalação e execução
 
-abra a pasta que contém este README um terminal e:
+Abra a pasta que contém este README em um terminal e execute:
 
 ```bash
 npm install 
 ```
 
-em seguida, execute o servidor de desenvolvimento:
+Em seguida, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
 ```
 
-## endpoints disponíveis em modo de desenvolvimento
+## Endpoints disponíveis em modo de desenvolvimento
 
 - <http://localhost:3000>
-  - /secoes
+  - `/secoes`
     - **GET**: lista as seções, que servem pra separa os produtos em seções.
-  - /produtos
+  - `/produtos`
     - **GET**: lista os produtos
     - **POST**: insere um produto novo
-  - /produtos/:id
+  - `/produtos/:id`
     - **PUT**: atualiza um produto de determinado :id
     - **DELETE**: remove um produto de determinado :id
 
-## formato do payload
+## Formato do payload
 
 - **produto**:
 
 ```js
-{id:1, descricao:"Jabuticaba", secao_id:7}
+{ id:1, descricao:"Jabuticaba", secao_id:7 }
 ```
 
 - **secao**:
 
 ```js
-{id:1, descricao:"frutas"}
+{ id:1, descricao:"frutas" }
 ```
 
-## considerações finais
+## Considerações finais
 
-o desafio é de frontend, mas se desejar incrementar alguma coisa no backend,
-sinta-se livre. apenas tome o cuidado de não deixar de atender nenhum dos
+O desafio é de frontend, mas se desejar incrementar alguma coisa no backend,
+sinta-se livre. Apenas tome o cuidado de não deixar de atender nenhum dos
 requisitos obrigatórios do [DESAFIO](../DESAFIO.md)
