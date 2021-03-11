@@ -35,7 +35,9 @@ npm run dev
 
 ## Parâmetros no GET
 
-É suportado o padrão FIQL, tanto no endpoint de produtos como no de seção, onde pode ser buscado (onde couber) por: `id`, `secao_id` e `descricao`. A utilização é recomendada.
+Tanto no endpoint de produtos como no de seção, podemos passar parâmetros. Onde couber, podemos buscar por: `id`, `secao_id` e `descricao`. É recomendado que se faça a filtragem de produtos e seções através de requisição parametrizada.
+
+A paginação também é suportada por parâmetro, podendo passar um `start` e um `limit`.
 
 ## Formato do payload
 
