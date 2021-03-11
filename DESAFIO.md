@@ -23,7 +23,7 @@ construir e rodar o projeto frontend.
   listagem.
 - Na tela de cadastro/edição, campos obrigatórios devem ser validados.
 - Este repositório é um _monorepo/multiproject_. o serviço a ser consumido
-  encontra-se em _varejim-produto-service_. a implementação da solução frontend
+  encontra-se em _varejim-produto-service_. A implementação da solução frontend
   deve ser feita em _varejim-produto-web_..
 - O _README.md_ do projeto frontend deve detalhar todos os passos e requisitos
   para executar o frontend e consumir o backend.
