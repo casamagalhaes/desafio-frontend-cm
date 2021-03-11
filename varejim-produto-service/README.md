@@ -33,6 +33,10 @@ npm run dev
     - **PUT**: atualiza um produto de determinado :id
     - **DELETE**: remove um produto de determinado :id
 
+## Parâmetros no GET
+
+É suportado o padrão FIQL, tanto no endpoint de produtos como no de seção, onde pode ser buscado (onde couber) por: `id`, `secao_id` e `descricao`. A utilização é recomendada.
+
 ## Formato do payload
 
 - **produto**:
